@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid rgb(123, 123, 123);
+  .currencies {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    .currency {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      img {
+        width: 50px;
+        object-fit: cover;
+        aspect-ratio: 3/2;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.converter {
+  margin-top: 10vh;
+  text-align: center;
+  .columns {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+  input {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: unset;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+  }
+  img {
+    height: 35px;
+    margin-right: 5px;
+  }
+  select {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  @media (max-width: 767px) {
+    .columns {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+  }
+}
